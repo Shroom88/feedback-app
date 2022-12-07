@@ -101,6 +101,7 @@ header {
 }
 
 .input-group {
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   border: 1px solid #ccc;
@@ -182,7 +183,8 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  font-weight: 600;
+  color: rgb(127, 106, 148);
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
