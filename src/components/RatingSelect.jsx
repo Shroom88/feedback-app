@@ -13,6 +13,7 @@ function RatingSelect({ select }) {
 
   const handleChange = (e) => {
     const value = +e.currentTarget.value;
+    console.log(value);
     select(value);
     setSelected(value);
   };
@@ -126,7 +127,7 @@ function RatingSelect({ select }) {
           onChange={handleChange}
           checked={selected === 10}
         />
-        <label htmlFor="num1">10</label>
+        <label htmlFor="num10">10</label>
       </li>
     </ul>
   );
