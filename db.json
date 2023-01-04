@@ -16,8 +16,8 @@
       "text": "This is feedback item 3 coming from backend"
     },
     {
-      "text": "Feedback backend test ",
-      "rating": 5,
+      "text": "testing the db file",
+      "rating": 6,
       "id": 4
     }
   ]
